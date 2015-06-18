@@ -58,11 +58,6 @@ public class Utility {
 
 	@SuppressWarnings("deprecation")
 	public boolean shouldBlock(Block b) {
-		if (b == null)
-			return false;
-		for (int i : ids)
-			if (b.getTypeId() == i)
-				return true;
 		return false;
 	}
 
